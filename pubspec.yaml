@@ -1,0 +1,40 @@
+name: awesome_music_app
+description: An amazing music streaming app with beautiful animations
+
+# Add this environment section - THIS FIXES THE ERROR!
+environment:
+  sdk: '^3.9.0'
+  flutter: '^3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Audio players
+  just_audio: ^0.10.4
+  media_kit: ^1.1.9
+  audio_service: ^0.18.15
+  
+  # State management & navigation  
+  get: ^4.6.6
+  
+  # Music source
+  youtube_explode_dart: ^2.3.6
+  
+  # Local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # HTTP requests
+  http: ^1.1.0
+  
+  # UI helpers
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
