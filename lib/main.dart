@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'screens/search_screen.dart';
 import 'package:flutter/foundation.dart';
 
-// holaa hii
+// holaa hii fuck you
 
 void main() {
   // Only show debug info in debug mode
