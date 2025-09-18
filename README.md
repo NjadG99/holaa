@@ -1,7 +1,7 @@
 # holaa
 # 🎵 Awesome Music Streaming App
 
-A beautiful, cross-platform music streaming application built with Flutter that delivers an exceptional user experience with stunning animations and seamless audio playback.
+A beautiful, cross-platform music streaming application built with Flutter 
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
@@ -14,14 +14,10 @@ A beautiful, cross-platform music streaming application built with Flutter that 
 ### 🎶 Core Music Features
 - **Real-time Music Search** - Search millions of songs from YouTube Music
 - **High-Quality Audio Streaming** - Crystal clear audio playback with smart stream selection
-- **Beautiful Now Playing Screen** - Full-screen player with album art and controls
-- **Smart Playlist Management** - Create and manage your favorite playlists
 - **Background Audio Support** - Keep music playing even when app is minimized
 
 ### 🎨 Stunning UI/UX
 - **Dark Theme Design** - Easy on the eyes, perfect for music listening
-- **Hero Animations** - Smooth transitions between screens with album art
-- **Micro-interactions** - Delightful animations that respond to user actions
 - **Responsive Design** - Optimized for phones, tablets, and desktop
 - **Material Design 3** - Modern, clean interface following latest design guidelines
 
@@ -102,10 +98,6 @@ flutter pub get
     ### Smart Audio Streaming
     The app uses `youtube_explode_dart` to extract high-quality audio streams from YouTube, automatically selecting the best available bitrate for optimal listening experience.
 
-    ### Beautiful Animations
-    - **Hero Animations** - Album artwork smoothly transitions between screens
-    - **Micro-interactions** - Play/pause buttons with satisfying state changes
-    - **Loading States** - Elegant loading indicators throughout the app
 
     ### Performance Optimizations
     - **Debounced Search** - Prevents excessive API calls during typing
@@ -132,20 +124,11 @@ If you found this project helpful, please give it a ⭐ on GitHub!
 
 ---
 
-## 🔧 Development Notes
-
-### Network Issues
-If you encounter network connectivity issues on physical devices, ensure your internet connection is stable and try switching between WiFi and mobile data.
 
 ### Platform Support
 - ✅ **Android** - Full functionality with YouTube integration
 - ✅ **iOS** - Complete feature set (requires Mac for development)
 - ✅ **Web** - UI development and testing (limited YouTube API access due to CORS)
-
-### Performance Tips
-- Use Android emulator for full YouTube Music integration during development
-- Test on physical devices for optimal performance evaluation
-- Web version is perfect for showcasing UI/UX and animations
 
 ---
 
